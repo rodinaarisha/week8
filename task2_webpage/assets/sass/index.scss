@@ -5,6 +5,7 @@ $font-stack:    Inro;
 $general-stack: Roboto Slab;
 $primary-color: var(--, #000);
 $color-button: #5222D0;
+*{border: 1px solid green;}
 
 .body-index {
     color: $primary-color;
@@ -116,4 +117,78 @@ font-style: normal;
 font-weight: 300;
 line-height: 160%;
     }
+
+
+    @media screen and (max-width: 1168px) and (min-width: 600px) {
+        .content__title {
+            font-size: 350%; }
+        
+          .content__text {
+            font-size: 110%; 
+          }
+          .button{
+            width: 22%;
+          }
+          .button_biggest{
+            width: 66%;
+
+          }
+        
+          .button__title {
+            width: 80%;
+            font-size: 80%;
+          }
+        
+          .button__title_biggest {
+            width: 87%;
+            font-size: 130%; 
+          }
+        .button__svg{
+            width: 20%;
+        }
+        }
+
+        .footer{
+            width: 90%;
+        }
+
+
+
+        @media screen and (max-width: 600px) and (min-width: 375px) {
+            .content__title {
+                font-size: 250%; }
+            
+              .content__text {
+                font-size: 80%; 
+              }
+              .button{
+                width: 32%;
+              }
+              .button_biggest{
+                width: 86%;
+    
+              }
+            
+              .button__title {
+                width: 60%;
+                font-size: 60%;
+              }
+            
+              .button__title_biggest {
+                width: 67%;
+                font-size: 100%; 
+              }
+            .button__svg{
+                width: 10%;
+            }
+            }
+    
+            .footer{
+                width: 90%;
+            }
+            .nav__link{
+                font-size: small;
+            }
+    
+
 
