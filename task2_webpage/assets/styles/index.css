@@ -138,11 +138,10 @@
   .button__svg {
     width: 20%;
   }
+  .footer {
+    width: 90%;
+  }
 }
-.footer {
-  width: 90%;
-}
-
 @media screen and (max-width: 600px) and (min-width: 375px) {
   .content__title {
     font-size: 250%;
@@ -167,13 +166,12 @@
   .button__svg {
     width: 10%;
   }
-}
-.footer {
-  width: 90%;
-}
-
-.nav__link {
-  font-size: small;
+  .footer {
+    width: 90%;
+  }
+  .nav__link {
+    font-size: small;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
